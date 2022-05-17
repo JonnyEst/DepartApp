@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "545723255162",
+    "project_id": "depart-app-6f9c0",
+    "storage_bucket": "depart-app-6f9c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545723255162:android:ba0bc1ed50e4fd3b76eec3",
+        "android_client_info": {
+          "package_name": "com.example.departapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545723255162-4k509gnian5lqote2qvbadai9k1fm7r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi4HFEPY20gB-iQfPW3BkHCq1vBMZ1-cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545723255162-4k509gnian5lqote2qvbadai9k1fm7r9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
