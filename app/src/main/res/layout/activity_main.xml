@@ -121,7 +121,7 @@
                     android:shadowColor="#221E1E"
                     android:shadowDy="10"
                     android:text="Iniciar sesión"
-                    android:textColor="@color/purple_500"
+                    android:textColor="@color/white"
                     android:textSize="16sp" />
 
             </LinearLayout>

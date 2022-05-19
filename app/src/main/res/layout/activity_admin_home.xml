@@ -17,6 +17,8 @@
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/rectangle_1" />
 
+
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -24,56 +26,91 @@
             android:orientation="vertical"
             android:padding="20dp">
 
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="158dp"
-                android:layout_height="55dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="30dp"
-                android:paddingBottom="0dp"
-                android:src="@drawable/logo" />
-
-            <View
+            <TableLayout
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="@color/gray" />
+                android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/textAd"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:padding="10dp"
-                android:text="EresAdmin" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
 
-            <Button
-                android:id="@+id/aniaBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_fondo_color"
-                android:paddingTop="10dp"
-                android:paddingHorizontal="30dp"
-                android:text="Añadir" />
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="120dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="30dp"
+                        android:paddingBottom="0dp"
+                        android:src="@drawable/logo" />
 
-            <Button
-                android:id="@+id/pagoBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_fondo_color"
-                android:text="Generar Cobros" />
+                    <Button
+                        android:id="@+id/cerrBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/btn_fondo_color"
+                        android:elevation="10dp"
+                        app:icon="@drawable/exit" />
+                </TableRow>
 
-            <Button
-                android:id="@+id/cerrBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:background="@drawable/btn_fondo_color"
-                android:text="Cerrar cesion" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@color/gray" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textAd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:text="EresAdmin" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/aniaBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/btn_login"
+                        android:elevation="10dp"
+                        android:paddingHorizontal="30dp"
+                        android:paddingTop="10dp"
+                        android:text="Añadir" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/pagoBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/btn_fondo_color"
+                        android:elevation="10dp"
+                        android:text="Generar Cobros" />
+
+                </TableRow>
+            </TableLayout>
 
         </LinearLayout>
+
     </FrameLayout>
 
 </GridLayout>
